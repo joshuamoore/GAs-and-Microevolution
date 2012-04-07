@@ -1,0 +1,98 @@
+//Class: OrganismObject
+//Description:	Stores all values for each organism
+public class OrganismObject
+{
+	String name;
+	int x;
+	int y;
+	String genome;
+
+	int weight;
+	int food;
+	int age;
+	double health;
+	double healthValue;
+
+	//Method:		add()
+	//Description:  Creates a on organism with a name, x coordinate, y coordinate, genome, weight, food stores, and age
+	//Parameters:  	nameValue - name of organism that is passed in from the program
+	//				xValue - beginning x coordinate for organism that is passed in
+	//				yValue - beginning y coordinate for organism that is passed in
+	//				stringGenome - beginning binary genome that for organism that is passed in
+	//				intWeight - beginning weight of the organism that is passed in
+	//				numFood - beginning amount of initial food stores that is passed in
+	//				age - beginning age of organism that is passed in
+	//Calls:       	none
+	//Globals:		name, x, y, genome, weight, food, health
+	public boolean add(String nameValue, int xValue, int yValue, String stringGenome, int intWeight, int numFood, int age)
+	{
+		name = nameValue;
+		x = xValue;
+		y = yValue;
+		genome = stringGenome;
+
+		weight = intWeight;
+		food = numFood;
+		health = healthValue;
+
+		return true;
+	}
+	//********************************************************************
+
+	//Method:		add()
+	//Description:  Overriding method that creates a on organism with a name, x coordinate, y coordinate. Used for food items.
+	//Parameters:  	nameValue - name of organism that is passed in from the program
+	//				xValue - beginning x coordinate for organism that is passed in
+	//				yValue - beginning y coordinate for organism that is passed in
+	//Calls:       	none
+	//Globals:		name, x, y
+	public boolean add(String nameValue, int xValue, int yValue)
+	{
+		name = nameValue;
+		x = xValue;
+		y = yValue;
+
+		return true;
+	}
+	//********************************************************************
+
+	//Method:		computeHealth()
+	//Description:  computes health of an organism and returns it the method that calls it.
+	//				Computes a health score normalized on a scale of 100
+	//Parameters:  	none
+	//Calls:       	genome.substring()
+	//Globals:		weight, food
+	public double computeHealth()
+	{
+		int speed = Integer.parseInt(genome.substring(4, 8), 2);
+		int met = Integer.parseInt(genome.substring(8, 12), 2);
+
+		if ((speed != 0) && (weight != 0) && (met != 0) && (food != 0))
+			healthValue = (int)Math.abs(100 - ((((double)speed * (double)weight) / ((double)met * (double)food)) * 100));
+
+		return healthValue;
+	}
+	//********************************************************************
+
+	//Method:		canReproduce()
+	//Description:  Determines whether or not an organism is old enough to reproduce
+	//Parameters:  	none
+	//Calls:       	Integer.parseInt()
+	//Globals:		age
+	public boolean canReproduce()
+	{
+		boolean canReproduce = false;
+		int reproductionAge = (Integer.parseInt(genome.substring(12, 16), 2));
+
+		if (age < reproductionAge)
+			canReproduce = false;
+
+		if (age > reproductionAge)
+			canReproduce = true;
+
+		return canReproduce;
+	}
+	//********************************************************************
+}
+//*******************************************************************************
+//*******************************************************************************

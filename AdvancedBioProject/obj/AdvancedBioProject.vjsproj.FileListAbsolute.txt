@@ -1,0 +1,27 @@
+G:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.pdb
+G:\AdvancedBioProject\AdvancedBioProject\bin\Debug\AdvancedBioProject.exe
+G:\AdvancedBioProject\AdvancedBioProject\bin\Debug\AdvancedBioProject.pdb
+G:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.exe
+\\vmware-host\Shared Folders\Desktop\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.exe
+\\vmware-host\Shared Folders\Desktop\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.pdb
+\\vmware-host\Shared Folders\Desktop\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\AdvancedBioProject\AdvancedBioProject\bin\Debug\AdvancedBioProject.exe
+\\vmware-host\Shared Folders\Desktop\AdvancedBioProject\AdvancedBioProject\bin\Debug\AdvancedBioProject.pdb
+J:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.exe
+J:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.pdb
+J:\AdvancedBioProject\AdvancedBioProject\bin\Debug\AdvancedBioProject.exe
+J:\AdvancedBioProject\AdvancedBioProject\bin\Debug\AdvancedBioProject.pdb
+J:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.exe
+F:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.pdb
+E:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.exe
+E:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.pdb
+E:\AdvancedBioProject\AdvancedBioProject\bin\Debug\AdvancedBioProject.exe
+E:\AdvancedBioProject\AdvancedBioProject\bin\Debug\AdvancedBioProject.pdb
+E:\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Documents From HD\College\6)Spring 2010\Advanced Bioinformatics\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.exe
+E:\Documents From HD\College\6)Spring 2010\Advanced Bioinformatics\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\AdvancedBioProject.pdb
+E:\Documents From HD\College\6)Spring 2010\Advanced Bioinformatics\AdvancedBioProject\AdvancedBioProject\bin\Debug\AdvancedBioProject.exe
+E:\Documents From HD\College\6)Spring 2010\Advanced Bioinformatics\AdvancedBioProject\AdvancedBioProject\bin\Debug\AdvancedBioProject.pdb
+E:\Documents From HD\College\6)Spring 2010\Advanced Bioinformatics\AdvancedBioProject\AdvancedBioProject\obj\x86\Debug\ResolveAssemblyReference.cache
